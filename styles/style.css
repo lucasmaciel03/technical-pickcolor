@@ -5,7 +5,7 @@ body {
   background: rgb(200, 138, 231);
   background: linear-gradient(
     20deg,
-    rgba(200, 138, 231, 1) 0%,
+    rgb(163, 70, 209) 0%,
     rgba(235, 123, 189, 1) 100%
   );
   padding: 36px;
@@ -75,6 +75,7 @@ h1 {
   margin: 0;
   font-family: "Holtwood One SC", serif;
   text-align: center;
+  position: relative;
 }
 
 h2 {
@@ -135,71 +136,21 @@ img {
 
 .svg {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 10px;
+  left: 10px;
+  transform: rotate(-35deg);
+  fill: #a670ff;
 }
 
-.svg1 {
-  position: absolute;
-  top: calc(100% - 650px);
-  left: calc(100% - 320px);
-  transform: rotate(-45deg);
+.background-elements {
+  font-size: 7rem;
+  color: #a670ff;
 }
 
-.svg2 {
+.random-position {
   position: absolute;
-  top: calc(100% - 440px);
-  left: calc(100% - 480px);
-  transform: rotate(25deg);
-}
-
-.svg3 {
-  position: absolute;
-  top: calc(100% - 300px);
-  left: calc(100% - 210px);
-  transform: rotate(25deg);
-}
-
-.svg4 {
-  position: absolute;
-  bottom: 0px;
-  left: calc(100% - 400px);
-  transform: rotate(25deg);
-}
-
-.svg5 {
-  position: absolute;
-  top: 0px;
-  left: calc(100% - 570px);
-  transform: rotate(35deg);
-}
-
-.svg6 {
-  position: absolute;
-  top: calc(100% - 655px);
-  left: calc(100% - 250px);
-  transform: rotate(25deg);
-}
-
-.svg7 {
-  position: absolute;
-  top: calc(100% - 470px);
-  left: calc(100% - 375px);
-  transform: rotate(25deg);
-}
-
-.svg8 {
-  position: absolute;
-  top: calc(100% - 285px);
-  left: calc(100% - 200px);
-  transform: rotate(25deg);
-}
-
-.svg9 {
-  position: absolute;
-  bottom: 0px;
-  left: calc(100% - 470px);
-  transform: rotate(25deg);
+  left: 0;
+  top: 0;
 }
 
 /* Media Queries */
@@ -215,21 +166,23 @@ img {
   .card {
     width: 100%;
   }
-}
-@media screen and (max-width: 1600px) {
-  .svg,
-  .svg1,
-  .svg2,
-  .svg3,
-  .svg4,
-  .svg5,
-  .svg6,
-  .svg7,
-  .svg8,
-  .svg9 {
+  .svg {
     display: none;
   }
 }
+
+@media screen and (max-width: 1280px) {
+  .background-elements {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .one {
+    display: none;
+  }
+}
+
 /* Estilos do modal */
 .modal {
   display: none;
