@@ -155,6 +155,7 @@ img {
   position: absolute;
   left: 0;
   top: 0;
+  display: none;
 }
 
 /* Media Queries */
@@ -215,9 +216,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-.hex{
+.hex {
   text-transform: uppercase;
 }
