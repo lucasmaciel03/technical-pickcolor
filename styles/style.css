@@ -74,6 +74,7 @@ h1 {
   font-size: 3rem;
   margin: 0;
   font-family: "Holtwood One SC", serif;
+  text-align: center;
 }
 
 h2 {
@@ -81,6 +82,7 @@ h2 {
   margin-top: -30px;
   color: #a670ff;
   font-family: "Holtwood One SC", serif;
+  text-align: center;
 }
 
 span {
@@ -91,8 +93,6 @@ span {
 
 img {
   width: 100px;
-  filter: invert(58%) sepia(44%) saturate(5665%) hue-rotate(229deg)
-    brightness(101%) contrast(101%);
 }
 
 .card-hover-icon {
@@ -214,4 +214,25 @@ img {
   .svg9 {
     display: none;
   }
+}
+/* Estilos do modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  border-radius: 20px;
 }
