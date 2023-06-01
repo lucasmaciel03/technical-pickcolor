@@ -23,7 +23,6 @@ section {
   align-items: flex-start;
   width: 100%;
   background: #fff;
-  opacity: 0.8;
   border-radius: 10px;
   padding: 40px;
 }
@@ -52,6 +51,9 @@ main {
   -moz-box-shadow: 0px 0px 43px 2px rgba(227, 227, 227, 1);
   box-shadow: 0px 0px 43px 2px rgba(227, 227, 227, 1);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-box-color {
@@ -114,6 +116,8 @@ img {
   flex-direction: column;
   justify-content: left;
   align-items: center;
+  text-align: left;
+  width: 100%;
   margin-top: 30px;
   gap: 10px;
 }
@@ -223,7 +227,6 @@ img {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -235,4 +238,18 @@ img {
   border: 1px solid #888;
   width: 50%;
   border-radius: 20px;
+  overflow-y: hidden;
+}
+
+/* Style component picker */
+
+.component-picker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hex{
+  text-transform: uppercase;
 }
