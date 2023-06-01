@@ -35,38 +35,40 @@
         <img id="svg" class="svg" src="images/heart.svg" alt="" />
         <h2>Hexadecimal</h2>
 
-        <!-- Card -->
-        <div class="card">
-          <div id="card" class="card-box-color">
-            <span class="card-hover-icon">
-              <img src="images/picker.png" alt="" />
-            </span>
-          </div>
-          <div class="card-color-info">
-            <div class="card-color">
-              <span>#A670FF</span>
-              <button class="card-color-btn">
-                <img style="width: 40px" src="images/copy.svg" />
-              </button>
-            </div>
-            <div class="card-color">
-              <span>rgba(255,255,255)</span>
-            </div>
-          </div>
-        </div>
-        <!-- End Card -->
+    <!-- Content -->
+    <main>
+      <h1>Sistema de Cores</h1>
+      <h2 id="sub-title">Hexadecimal</h2>
 
-        <!-- Modal -->
-        <div id="modal" class="modal">
-          <div class="modal-content">
-            <!-- Aqui você pode adicionar a paleta de cores -->
-            <h1>Selecione a sua cor</h1>
-            <p>Conteúdo do modal...</p>
+      <!-- Card -->
+      <div class="card">
+        <div id="card" class="card-box-color">
+          <span class="card-hover-icon">
+            <img src="images/picker.png" alt="" />
+          </span>
+        </div>
+        <div class="card-color-info">
+          <div id="color" class="card-color">
+            <span class="hex" id="hex">#A670FF</span>
+          </div>
+          <div class="card-color">
+            <span class="rgba">rgba( </span> <span id="r"> 176, </span> <span id="g"> 115, </span> <span id="b"> 247, </span> <span id="a"> 1 )<span>
           </div>
         </div>
-        <!-- End Modal -->
-      </main>
-      <!-- End Content -->
+      </div>
+      <!-- End Card -->
+
+      <!-- Modal -->
+      <div id="modal" class="modal">
+        <div id="content-modal" class="modal-content">
+          <!-- Aqui você pode adicionar a paleta de cores -->
+          <h1>Selecione a sua cor</h1>
+          <div id="picker" class="component-picker" />
+        </div>
+      </div>
+      <!-- End Modal -->
+    </main>
+    <!-- End Content -->
 
       <aside>
         <span id="random-position" class="background-elements random-position"
