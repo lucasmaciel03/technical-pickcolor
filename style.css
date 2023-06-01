@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+
+body {
+  background: rgb(200, 138, 231);
+  background: linear-gradient(
+    20deg,
+    rgba(200, 138, 231, 1) 0%,
+    rgba(235, 123, 189, 1) 100%
+  );
+  padding: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: calc(100vh - 72px);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  background: #fff;
+  opacity: 0.8;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+aside {
+  flex: 1;
+  position: relative;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+
+.card {
+  width: 380px;
+  height: 440px;
+  border-radius: 10px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 43px 2px rgba(227, 227, 227, 1);
+  -moz-box-shadow: 0px 0px 43px 2px rgba(227, 227, 227, 1);
+  box-shadow: 0px 0px 43px 2px rgba(227, 227, 227, 1);
+  padding: 20px;
+}
+
+.card-box-color {
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+  background: #a670ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box-color:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.4s ease-in-out;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Holtwood One SC", serif;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: -30px;
+  color: #a670ff;
+  font-family: "Holtwood One SC", serif;
+}
+
+span {
+  font-size: 2rem;
+  color: #000;
+  font-family: "Lalezar", cursive;
+}
+
+img {
+  width: 100px;
+  filter: invert(58%) sepia(44%) saturate(5665%) hue-rotate(229deg)
+    brightness(101%) contrast(101%);
+}
+
+.card-hover-icon {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.card-box-color:hover .card-hover-icon {
+  opacity: 1;
+}
+
+.card-color {
+  width: 100%;
+  height: 36px;
+}
+
+.card-color-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.svg1 {
+  position: absolute;
+  top: 100px;
+  left: 280px;
+  transform: rotate(-45deg);
+}
+
+.svg2 {
+  position: absolute;
+  top: 300px;
+  left: 70px;
+  transform: rotate(25deg);
+}
+
+.svg3 {
+  position: absolute;
+  top: 450px;
+  left: 370px;
+  transform: rotate(25deg);
+}
+
+.svg4 {
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  transform: rotate(25deg);
+}
+
+.svg5 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transform: rotate(35deg);
+}
+
+.svg6 {
+  position: absolute;
+  top: 125px;
+  left: 275px;
+  transform: rotate(25deg);
+}
+
+.svg7 {
+  position: absolute;
+  top: 275px;
+  left: 65px;
+  transform: rotate(25deg);
+}
+
+.svg8 {
+  position: absolute;
+  top: 445px;
+  left: 365px;
+  transform: rotate(25deg);
+}
+
+.svg9 {
+  position: absolute;
+  bottom: 0px;
+  left: 70px;
+  transform: rotate(25deg);
+}
