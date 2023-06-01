@@ -8,6 +8,15 @@ document.addEventListener("DOMContentLoaded", function () {
   var a = document.getElementById("a");
   var subtitle = document.getElementById("sub-title");
   var body = document.getElementById("body");
+  var spanColor = document.getElementById("span");
+  var spanColor2 = document.getElementById("span2");
+  var spanColor3 = document.getElementById("span3");
+  var spanColor4 = document.getElementById("span4");
+  var spanColor5 = document.getElementById("span5");
+  var spanColor6 = document.getElementById("span6");
+  var spanColor7 = document.getElementById("span7");
+  var spanColor8 = document.getElementById("span8");
+  var spanColor9 = document.getElementById("span9");
 
   card.addEventListener("click", function () {
     modal.style.display = "block";
@@ -36,6 +45,15 @@ document.addEventListener("DOMContentLoaded", function () {
     body.style.background = color.hexString;
     subtitle.style.color = color.hexString;
     card.style.backgroundColor = color.hexString;
+    spanColor.style.color = color.hexString;
+    spanColor2.style.color = color.hexString;
+    spanColor3.style.color = color.hexString;
+    spanColor4.style.color = color.hexString;
+    spanColor5.style.color = color.hexString;
+    spanColor6.style.color = color.hexString;
+    spanColor7.style.color = color.hexString;
+    spanColor8.style.color = color.hexString;
+    spanColor9.style.color = color.hexString;
     hex.innerHTML = color.hexString;
     r.innerHTML = color.rgba.r + ",";
     g.innerHTML = color.rgba.g + ",";
